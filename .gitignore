@@ -1,0 +1,34 @@
+.web
+*.db
+assets/external/
+*.py[cod]
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Reflex specific
+.web/
+node_modules/ # Si usas node directamente
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Secrets (si tienes alguno)
+# secrets.yaml
+# .env
+
+.states
