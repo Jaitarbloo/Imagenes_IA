@@ -17,18 +17,16 @@ class State(rx.State):
             yield
 
 def index():
-    return rx.box(
+    return rx.flex(
         rx.image(
             src=State.imagenes[State.indice_actual],
             width="800px",
             height="400px"
         ),
-        display="flex",
-        justify="center",
-        align="center",
+        align="center",      # Centra verticalmente
+        justify="center",    # Centra horizontalmente
         height="100vh",
         width="100vw",
-        margin_top="0"
     )
 
 app = rx.App()
