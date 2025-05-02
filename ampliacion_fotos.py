@@ -11,7 +11,7 @@ class State(rx.State):
         self.expanded_bici = not self.expanded_bici
 
 def index():
-    return rx.flex(
+    return rx.flex( 
         rx.box(
             rx.image(
                 src="/coche.jpg",
