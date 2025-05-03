@@ -10,7 +10,7 @@ class State(rx.State):
     def toggle_size_bici(self):
         self.expanded_bici = not self.expanded_bici
 
-def index():
+def Ampliacion_fotos():
     return rx.flex( 
         rx.box(
             rx.image(
@@ -46,4 +46,4 @@ def index():
     )
 
 app = rx.App()
-app.add_page(index)
+app.add_page(Ampliacion_fotos, title="Ampliacion_fotos")
