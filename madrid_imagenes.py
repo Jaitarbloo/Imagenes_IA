@@ -3,7 +3,7 @@ from state import State
 
 def imagenes_comunidad_madrid():
 
-        return rx.flex(
+        return rx.flex( 
                    rx.box(
                         rx.heading( "Bienvenidos a",size="8", margin="20px", color="black"),
                         rx.heading( "Comunidad.Madrid",size="9", margin="20px",color="red"),
