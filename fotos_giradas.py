@@ -1,7 +1,7 @@
 import reflex as rx
 from state import State
 
-def Fotos_giradas_con_link():
+def Fotos_giradas_con_link(): 
     return rx.center(
                     rx.link(
                         rx.box(
