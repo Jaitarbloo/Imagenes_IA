@@ -1,7 +1,7 @@
 import reflex as rx
 from state import State
 
-def iconos_dentro_fotos():
+def iconos_dentro_fotos(): 
         
         return rx.box(
                         rx.image("/arbol.jpg", width="100%", height="100%"),
