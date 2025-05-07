@@ -4,7 +4,7 @@ class State(rx.State):
     expanded_coche: bool = False
     expanded_bici: bool = False
 
-    def toggle_size_coche(self):
+    def toggle_size_coche(self): 
         self.expanded_coche = not self.expanded_coche
 
     def toggle_size_bici(self):
