@@ -1,7 +1,7 @@
 import reflex as rx
 from state import State
 
-def inicio_y_fin():
+def inicio_y_fin(): 
 
     return rx.flex(
                 rx.vstack( 
