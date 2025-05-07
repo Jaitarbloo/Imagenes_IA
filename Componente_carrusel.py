@@ -8,7 +8,7 @@ class State(rx.State):
         "/concorde 3.jpg",
         "/concorde 7.jpg"
     ]
-    indice_actual: int = 0
+    indice_actual: int = 0 
 
     async def auto_slider(self):
         while True:
